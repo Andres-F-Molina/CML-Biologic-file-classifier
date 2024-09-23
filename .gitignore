@@ -1,0 +1,16 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders
+venv/
+.env/
+
+# PyCharm project files
+.idea/
+
+# Logs
+*.log
+
+# Directory configuration file
+directory_config.py

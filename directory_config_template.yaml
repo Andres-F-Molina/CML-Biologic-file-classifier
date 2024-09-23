@@ -1,0 +1,9 @@
+directories:
+  base_directory: "/path/to/your/base/directory"
+  source_dir: "/path/to/your/source/directory"
+  destination_base_dir: "/path/to/your/destination/base/directory"
+logs:
+  unclassified_log: "unclassified_files.log"
+  copied_log: "copied_files.log"
+  replaced_log: "replaced_files.log"
+  skipped_log: "skipped_files.log"
