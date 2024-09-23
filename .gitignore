@@ -13,4 +13,4 @@ venv/
 *.log
 
 # Directory configuration file
-directory_config.py
+directory_config.yaml
