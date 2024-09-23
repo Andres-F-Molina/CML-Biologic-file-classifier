@@ -1,7 +1,7 @@
 directories:
-  base_directory: ""
-  source_dir: "/"
-  destination_base_dir: ""
+  base_directory: "/Users/andresmolina/Documents/Projects/Algorithms_Echem_Data_Analysis/mpr_file_classifier"
+  source_dir: "/Users/andresmolina/Documents/Projects/Algorithms_Echem_Data_Analysis/dQdV_Fitting/Data/CML_Data"
+  destination_base_dir: "/Users/andresmolina/Documents/Projects/Algorithms_Echem_Data_Analysis/dQdV_Fitting/Data/CML_Data_Classified"
 logs:
   unclassified_log: "unclassified_files.log"
   copied_log: "copied_files.log"
