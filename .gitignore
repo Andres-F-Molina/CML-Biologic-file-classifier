@@ -14,3 +14,6 @@ venv/
 
 # Directory configuration file
 directory_config.yaml
+
+# macOS files
+.DS_Store
