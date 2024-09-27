@@ -1,5 +1,5 @@
 directories:
-  base_directory: "/path/to/your/base/directory"
+  base_directory: "/path/to/your/root/directory"
   source_dir: "/path/to/your/source/directory"
   destination_base_dir: "/path/to/your/destination/base/directory"
 logs:

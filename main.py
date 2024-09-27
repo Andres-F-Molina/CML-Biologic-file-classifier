@@ -8,8 +8,12 @@ import yaml
 dry_run = False
 
 # Load directory configuration file
-with open("directory_config.yaml", "r") as file:
-    config = yaml.safe_load(file)
+try:
+    with open("directory_config.yaml", "r") as file: 
+        config = yaml.safe_load(file)
+except FileNotFoundError:
+    logging.error("MAIN. Directory configuration file not found. Check that the file directory_config.yaml exists.")
+    exit(1)
 
 # Load the mappings file. Mappings help to classify the test type according to substrings in the filenames
 with open("mappings.yaml", "r") as file:
@@ -114,6 +118,8 @@ with open(UNCLASSIFIED_LOG, 'a') as log_unclassified, \
 
 
 # Logging information.
+logging.info(f"*. mpr files were looked in: {SOURCE_DIR}")
+logging.info(f"Files will be copied to: {DESTINATION_BASE_DIR}")
 logging.info("File classification and copying completed (dry run=%s).", dry_run)
 logging.info("File classification and copying completed.")
 logging.info(f"Unclassified files are logged in: {UNCLASSIFIED_LOG}")
