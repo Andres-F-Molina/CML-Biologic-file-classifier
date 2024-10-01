@@ -10,4 +10,5 @@ The directories need to be specified in the file 'directory_config_template.yaml
 ## Installation  
 1. Clone the repo
 2. Specify the directories in the file 'directory_config_template.yaml'
-3. Run the main file
+3. Change the name to 'directory_config.yaml'
+4. Run the main file
